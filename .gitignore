@@ -1,3 +1,21 @@
+# Dependencies
+node_modules
+backend/node_modules/
+Frotend/node_modules/
+
+# Environment Variables
+.env
+backend/.env
+Frotend/.env
+
+# Build files
+dist
+dist-ssr
+build
+Frotend/dist/
+Frotend/build/
+backend/uploads/
+
 # Logs
 logs
 *.log
@@ -7,20 +25,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.local
+*.tmp
+*.temp
 
-.env
+# Coverage Reports
+coverage/
