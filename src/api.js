@@ -1,4 +1,4 @@
-﻿const API_BASE = 'http://localhost:5000/api';
+﻿const API_BASE = 'https://paytmkaro-jnoe.onrender.com/api';
 
 export async function apiCall(endpoint, method = 'GET', body = null) {
   const opts = {
